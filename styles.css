@@ -2,7 +2,7 @@
 
 body {
 font: normal normal 13px/16px "Open Sans", sans-serif;
-background: #dfdfdf;
+background: #bbb9b9;
 }
 
 .container{
@@ -23,7 +23,7 @@ padding: 4px 15px 4px 5px;
 
 #button{
 display: inline-block;
-background-color:#fc999b;
+background-color:#26bc16;
 color:#ffffff;
 border-radius: 5px;
 text-align:center;
@@ -55,6 +55,6 @@ li > crossOutButton {
 	background: none;
 	border: none;
 	float: right;
-	color: #025f70;
+	color: #791708;
 	font-weight: 800;
 }
