@@ -28,5 +28,5 @@ function crossOut(){
         li.addClass('delete');
     }
 //made list sortable
-    $('List').sortable();
+    $('#list').sortable();
 }
