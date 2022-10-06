@@ -1,15 +1,15 @@
 //add a new item to the list
-let li = $('<li></li>');
+
 function newListItem(){
-   
+    let li = $('<li></li>');
     let inputValue = $('#input').val();
     li.append(inputValue);
 
     if (inputValue === ''){
         alert('You must input a value!');
     } else {
-        $('List').append(li);
-    }
+        $('#list').append(li);
+    
 }
 //cross off an item from the list
 function crossOut(){
@@ -29,3 +29,4 @@ function crossOut(){
     }
 //made list sortable
     $('List').sortable();
+}
