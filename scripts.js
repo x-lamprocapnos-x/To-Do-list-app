@@ -5,6 +5,13 @@ function newListItem() {
     let inputValue = $('#input').val();
     li.append(inputValue);
 
+    document.getElementById("input").addEventListener("keyup", function (event) {
+        if (event.key === "Enter") {
+            event.preventDefault();
+            newListItem();
+        }
+    });
+
     if (inputValue === '') {
         alert('You must input a value!');
     } else {
@@ -27,6 +34,8 @@ function newListItem() {
     function deleteListItem() {
         li.addClass('delete');
     }
+
+
     //made list sortable
     $('#list').sortable();
 }

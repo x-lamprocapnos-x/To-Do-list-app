@@ -1,20 +1,21 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
 
 body {
-font: normal normal 13px/16px "Open Sans", sans-serif;
-background: #bbb9b9;
+font: normal normal 15px/20px "Comic Sans MS", cursive;
+background: #b2cddd;
 }
 
 .container{
-padding: 20px;
-width: 300px;
+padding: 10px;
+width: 400px;
 margin: 0 auto;
-margin-top: 40px;
+margin-top: 50px;
 background: white;
 border-radius: 5px;}
 
 form {
 display: inline-block;
+border-radius: 5px;
 }
 
 input{
@@ -23,7 +24,7 @@ padding: 4px 15px 4px 5px;
 
 #button{
 display: inline-block;
-background-color:#26bc16;
+background-color:#26ae17;
 color:#ffffff;
 border-radius: 5px;
 text-align:center;
@@ -39,7 +40,7 @@ ol {padding-left: 20px;}
 
 ol li {padding: 5px;color:#000;}
 
-ol li:nth-child(even){background: #dfdfdf;}
+ol li:nth-child(even){background: #aab4ba;}
 
 .strike{text-decoration: line-through;}
 
@@ -55,6 +56,6 @@ li > crossOutButton {
 	background: none;
 	border: none;
 	float: right;
-	color: #791708;
+	color: #871908;
 	font-weight: 800;
 }
